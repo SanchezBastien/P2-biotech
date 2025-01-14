@@ -1,1 +1,1 @@
-Sample project for OpenClassroom's fundamentals of Java
+Le projet est de débugger une application java
