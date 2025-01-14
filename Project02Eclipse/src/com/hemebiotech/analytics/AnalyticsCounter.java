@@ -9,7 +9,7 @@ public class AnalyticsCounter {
 	private final ISymptomWriter writer;
 
 	/**
-	 * Constructeur pour initialiser le lecteur et l'écrivain.
+	 * Constructeur pour initialiser le lecteur et l'écrivain
 	 *
 	 * @param reader une instance de ISymptomReader pour lire les symptômes
 	 * @param writer une instance de ISymptomWriter pour écrire les résultats
@@ -29,7 +29,7 @@ public class AnalyticsCounter {
 	}
 
 	/**
-	 * Compte les occurrences de chaque symptôme.
+	 * Compte les occurrences de chaque symptôme
 	 *
 	 * @param symptoms une liste de symptômes
 	 * @return une Map contenant chaque symptôme et son nombre d'occurrences
@@ -43,7 +43,7 @@ public class AnalyticsCounter {
 	}
 
 	/**
-	 * Trie les symptômes par ordre alphabétique.
+	 * Trie les symptômes par ordre alphabétique
 	 *
 	 * @param symptoms une Map de symptômes avec leur nombre d'occurrences
 	 * @return une Map triée par ordre alphabétique
@@ -53,7 +53,7 @@ public class AnalyticsCounter {
 	}
 
 	/**
-	 * Écrit les symptômes et leurs occurrences dans un fichier à l'aide de ISymptomWriter.
+	 * Écrit les symptômes et leurs occurrences dans un fichier à l'aide de ISymptomWriter
 	 *
 	 * @param symptoms une Map triée de symptômes avec leur nombre d'occurrences
 	 */
